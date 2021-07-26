@@ -1,0 +1,24 @@
+.warnabg1 {
+	background-color: #0089A7;
+}
+
+.btn-orange {
+	color: #FFFFFF;
+  	background-color: #FF8310;
+}
+
+.btn-orange:hover {
+	color: #FFFFFF;
+  	background-color: #EF7C11;
+}
+
+.warnaAbu {
+	color: #464646;
+}
+
+/*@media (max-width: 600px) { 
+    .login1 {
+		margin-top: 100px;
+		width: 300px;
+	}
+ }*/

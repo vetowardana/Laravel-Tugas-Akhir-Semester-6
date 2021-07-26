@@ -1,0 +1,311 @@
+.dd-padding {
+  padding-right: 10px;
+}
+
+.putih {
+  color: white;
+}
+
+.biruA {
+  background-color: #167198;
+}
+
+.notifikasi {
+  background-color: #003756;
+}
+
+.notifikasi span {
+  color: white;
+}
+
+.notifikasi a {
+  color: white;
+}
+
+.keluar {
+  padding-right: 15px;
+}
+
+.keluar button {
+  background-color: #FF8310; 
+  color: white;
+}
+
+.ikon-briefcase {
+  padding: 0px 10px;
+}
+
+.ikon-briefcase i {
+  color: #207183;
+}
+.status-mhs {
+  padding: 20px 10px;
+}
+
+.padd1 {
+  padding: 5px 0px;
+}
+
+.rb1 {
+  padding: 0px 140px;
+}
+
+.rb2 {
+  padding: 0px 110px;
+}
+
+.warnaAbu1 {
+  color: #464646;
+}
+
+.login1 {
+  background-color: #FFFFFF; 
+  width: 25rem;
+}
+
+.image-cari-magang {
+  width: 250px;
+}
+
+.font-margin1 {
+  margin-bottom: -1px;
+}
+
+.font-margin2 {
+  margin-bottom: 80px;
+}
+
+.font-margin3 {
+  margin-bottom: -16px;
+}
+
+.font-margin4 {
+  margin-bottom: 0px;
+}
+.font-margin5 {
+  margin-bottom: 10px;
+}
+
+.jam{
+  font-size: 72px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #FF8310;
+  text-align: center;
+}
+
+.tanggal{
+  font-size: 20px;
+  text-align: right;
+}
+
+.btn-presensi{
+  text-align: center;
+}
+
+.warnaAbu2 {
+  background-color: #F1F1F1;
+}
+
+.tgl-dibuat-1 {
+  text-align: left; 
+  margin-bottom: -16px; 
+  color: grey;
+}
+
+.wkt-dibuat-1 {
+  text-align: right; 
+  margin-bottom: -16px; 
+  color: grey;
+}
+
+.nama-perusahaan1 {
+  text-align: left; 
+  margin-bottom: -16px;
+}
+
+.nama-lowongan1 {
+  text-align: right; 
+  margin-bottom: -16px;
+}
+
+.tengah1 {
+  text-align: center; 
+  margin-bottom: -16px;
+}
+
+.jam_analog {
+  background: #e7f2f7;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  border: 16px solid #52b6f0;
+  border-radius: 50%;
+  padding: 20px;
+  margin:20px auto;
+}
+
+.ukuran {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.jarum {
+  position: absolute;
+  width: 50%;
+  background: #232323;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.lingkaran_tengah {
+  width: 24px;
+  height: 24px;
+  background: #232323;
+  border: 4px solid #52b6f0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -14px;
+  margin-top: -14px;
+  border-radius: 50%;
+}
+
+.jarum_detik {
+  height: 2px;
+  border-radius: 1px;
+  background: #F0C952;
+}
+
+.jarum_menit {
+  height: 4px;
+  border-radius: 4px;
+}
+
+.jarum_jam {
+  height: 8px;
+  border-radius: 4px;
+  width: 35%;
+  left: 15%;
+}
+
+.tgl-mini {
+  text-align: right;
+}
+
+.status {
+  text-align: right;
+}
+
+@media(max-width: 1920px) {
+  .fhd1 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+  .fhd2 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+  }
+}
+
+@media (max-width: 600px) { 
+  .ikon-briefcase {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .status-mhs {
+    padding: 10px 10px 0px 10px;
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .lahir {
+    padding: 5px 5px;
+    width: 33.3333333333%
+  }
+  .kota1 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+  }
+  .kodePos {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .judul-cari-magang {
+    width: 75%;
+  }
+  .image-cari-magang {
+    width: 100px;
+  }
+  .font-size-1 {
+    font-size: 12px;
+  }
+  .font-size-2 {
+    font-size: 10px;
+  }
+  .font-margin2 {
+    margin-bottom: 25px;
+  }
+  .wkt-dibuat-1 {
+  text-align: left; 
+  margin-bottom: -15px; 
+  color: grey;
+  }
+  .nama-lowongan1 {
+    text-align: left; 
+    margin-bottom: -15px;
+  }
+  .tgl-dibuat-1 {
+  text-align: left; 
+  margin-bottom: -15px; 
+  color: grey;
+  }
+  .nama-perusahaan1 {
+    text-align: left; 
+    margin-bottom: -15px;
+  }
+  .tengah1 {
+    text-align: left; 
+    margin-bottom: -15px;
+  }
+  .dua-lima {
+    flex:  0 0 auto;
+    width: 50%;
+  }
+ }
+
+ @media (max-width: 1366px) {
+  .laptop1 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .laptop2 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .ikon-briefcase {
+    flex: 0 0 auto;
+    width: 35%;
+    text-align: center;
+  }
+  .status-mhs {
+    padding: 10px 10px 0px 10px;
+    flex: 0 0 auto;
+    width: 65%;
+    text-align: left;
+  }
+ }
+
+ @media (max-width: 400px){
+  .mini-device1 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .mini-device2 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+  }
+ }
